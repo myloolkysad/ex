@@ -1,0 +1,68 @@
+*{
+	margin:0px;
+}
+body{
+	width:448px;
+	height: 300px;
+	overflow-x: hidden;
+}
+#find {
+	width: 448px;
+	height: 300px;
+	overflow-x: hidden;
+}
+
+#theme {
+	text-align: center;
+    font-size: 18px;
+    height: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 2;
+}
+p{
+	position: relative;
+    height: 75px;
+    font-size: 16px;
+    top: 20px;
+    left: 50px;
+}
+#findemail {
+	height: 256px;
+    width: 448px;
+    position: absolute;
+}
+
+#emailtext1 {
+	position: relative;
+    width: 210px;
+    height: 38px;
+    left: 38px;
+}
+#emailtext2 {
+	position: relative;
+    width: 210px;
+    height: 38px;
+}
+
+#emailbt {
+	position: relative;
+    width: 116px;
+    height: 55px;
+    top: 24px;
+    left: 160px;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 2;
+    background: darkgray;
+    cursor: pointer;
+    border-radius: 6px;
+    outline-style: none;
+}
+#emailbt:focus {
+	border-top: 10px;
+	border-left: 10px;
+}

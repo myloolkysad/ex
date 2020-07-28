@@ -1,0 +1,24 @@
+.button1 {
+	background: black;
+	color: aliceblue;
+	font-size: 18px;
+	text-align: center;
+}
+.button1:hover {
+	background: blue;
+}
+
+.button1:active {
+	border-top: 30px;
+}
+
+.button2 {
+	background: gray;
+	color: white;
+	text-align: center;
+	border-radius: 50%;
+}
+.frameSkin {
+	background: url("../img/asfalt_login.png"), rgba(221, 224, 238, 0.6);
+	border-radius: 40px;
+}

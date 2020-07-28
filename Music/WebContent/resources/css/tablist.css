@@ -1,0 +1,110 @@
+.total {
+	position: absolute;
+	top: 46px;
+	height: 1340px;
+	width: 800px;
+}
+
+body .total{
+	background: url("../img/tablist_background.png"),rgba(221,224,238,0.5);
+	border:0px;
+	margin: 0px;
+	padding:0px;
+}
+.main{
+	overflow: hidden;
+	height: 1258px;
+}
+.main1{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 1330px;	
+}
+.albumTable{
+	width: 100%;
+}
+.albumTR{
+	width: 790px;
+	border-bottom: 1px solid black;
+}
+.th1{
+	width:20px;
+	padding:0px;
+}
+.th2{
+	width:65px;
+	padding:0px;
+}
+.th3{
+	width:295px;
+	padding:0px;
+}
+.th4{
+	width:295px;
+	padding:0px;
+}
+.th5{
+	width:60px;
+	padding:0px;
+}
+.th6{
+	width:60px;
+	padding:0px;
+}
+td.th1{
+	height: 62px;
+}
+td.th2{
+	height: 62px;
+}
+td.th3{
+	height: 62px;
+}
+td.th4{
+	height: 62px;
+}
+td.th5{
+	height: 62px;
+}
+td.th6{
+	height: 62px;
+}
+.listtext {
+	position: absolute;
+	top: 1297px;
+	height: 40px;
+	width: 798px;
+	margin: 0px;
+	text-align: center;
+}
+.list{
+	height: 65px;
+	display: "";
+}
+#pageNum{
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+#pageNum:hover{
+	font-size:25px;
+	color: #0000A5;
+}
+.main1::-webkit-scrollbar {
+	width: 7px;
+}
+
+.main1::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10rem;
+	border: 1px solid #fff;
+}
+
+.main1::-webkit-scrollbar-track-piece:start {
+	background: transparent;
+}
+
+.main1::-webkit-scrollbar-track-piece:end {
+	background: transparent;
+}

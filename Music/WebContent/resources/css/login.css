@@ -1,0 +1,94 @@
+
+#ptop{
+	margin-top:20px;
+}
+#pcenter{
+	margin-top:10px;
+}
+#pbottom{
+	margin-top:15px;
+	margin-bottom:20px;
+}
+.login{
+position:absolute;
+ top: 15px; left:0px;
+ width: 270px; height: 260px;
+ background: url("../img/asfalt_login.png"),rgba(221,224,238,0.6);
+ border-radius: 40px;
+}
+#login{
+	width: 270px;
+	padding: 30px;
+	border-radius: 30px;
+}
+#new{
+	position: relative;
+    width: 100px;
+    padding: 0;
+    left: 40px;
+    height: 30px;
+    top: 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: url("../img/asfalt_login.png"),rgba(38,57,77,0.9);
+    cursor: pointer;
+    outline-style: none;
+}
+#find{
+	position: relative;
+    width: 100px;
+    padding: 0;
+    left: 25px;
+    height: 30px;
+    top: 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: url("../img/asfalt_login.png"),rgba(38,57,77,0.9);
+    cursor: pointer;
+    outline-style: none;
+}
+.logintext{
+	position: relative;
+	width: 230px;
+	height: 40px;
+	padding: 2px;
+	left: 20px;
+	font-size: 20px;
+}
+.logintext::placeholder{
+	font-size: 16px;
+}
+#login{
+	position: relative;
+    width: 200px;
+    height: 35px;
+    padding: 0px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    left: 35px;
+    color: white;
+    border: none;
+    margin: 0px;
+    background: url("../img/asfalt_login.png"),rgba(38,57,77,0.9);
+    font-weight: bolder;
+    outline-style: none;
+    cursor: pointer;
+}
+.login input[type="text"],
+.login input[type="password"]{
+	border: none;
+	border-radius: 4px;
+	outline-style: none;
+	-webkit-appearance: none;
+	background: url("../img/asfalt_login.png"),rgba(221,224,238,0.4);
+}
+.login input[type="text"]:focus,
+.login input[type="password"]:focus{
+	background-color: white;
+	border: 1px solid #273949;
+}

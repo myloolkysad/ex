@@ -1,0 +1,238 @@
+#musicPlayer {
+	display: inline-block;
+	position: sticky;
+	top: 150px;
+	height: 600px;
+	width: 275px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+}
+#frame1 {
+	position: absolute;
+	width: 99%;
+	height: 100px;
+	border-bottom: 1px solid black;
+}
+#frameplay{
+	position: absolute;
+	width: 99%;
+	height: 40px;
+	top: 102px;
+	border-bottom: 1px solid black;
+}
+#frame2 {
+	position: absolute;
+	width: 99%;
+	height: 437px;
+	top: 142px;
+	border-top: 1px solid black;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+#play {
+	position: absolute;
+	background-image: url(../img/player/start64.png);
+	background-size:50px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin: 0px;
+	width: 52px;
+	height: 52px;
+	left: 72px;
+	top: 2px;
+	outline-style: none;
+	cursor: pointer;
+	
+}
+#stop {
+	position: absolute;
+	background-image: url(../img/player/stop48.png);
+	background-size:50px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin: 0px;
+	width: 52px;
+	height: 52px;
+	right: 75px;
+	top: 2px;
+	outline-style: none;
+	cursor: pointer;
+}
+#pause {
+	position: absolute;
+	background-image: url(../img/player/Pause64.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin: 0px;
+	width: 44px;
+	height: 44px;
+	left: 44px;
+	top: 54px;
+	outline-style: none;
+	cursor: pointer;
+}
+#resume{
+	position: absolute;
+	background-image: url(../img/player/resume32.png);
+	background-size:30px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin: 0px;
+	width: 44px;
+	height: 44px;
+	left: 110px;
+	top: 54px;
+	outline-style: none;
+	cursor: pointer;
+}
+#previous {
+	position: absolute;
+	background-image: url(../img/player/left48.png);
+	background-size:40px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin: 0px;
+	width: 48px;
+	height: 48px;
+	left: 16px;
+	top: 3px;
+	outline-style: none;
+	cursor: pointer;
+}
+#next {
+	position: absolute;
+	background-image: url(../img/player/right48.png);
+	background-size:40px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin: 0px;
+	width: 48px;
+	height: 48px;
+	right: 16px;
+	top: 3px;
+	outline-style: none;
+	cursor: pointer;
+}
+#volumeup {
+	position: absolute;
+	background-image: url(../img/player/volumeup32.png);
+	background-size:30px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin: 0px;
+	width: 35px;
+	height: 35px;
+	top: 60px;
+	right: 10px;
+	outline-style: none;
+	cursor: pointer;
+}
+#volumedown {
+	position: absolute;
+	background-image: url(../img/player/volumedown32.png);
+	background-size:30px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin: 0px;
+	width: 35px;
+	height: 35px;
+	top: 60px;
+	right: 55px;
+	outline-style: none;
+	cursor: pointer;
+}
+table {
+	border-collapse: collapse;
+}
+#title {
+	width: 100%;
+}
+#list {
+	width: 100%;
+}
+#playing{
+	width: 100%;
+    height: 37px;
+    font-size: 24px;
+    background: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+td .musiclist {
+	position: relative;
+	background-color: aliceblue;
+}
+#list2 {
+	width: 100%;
+}
+#frame2::-webkit-scrollbar {
+	width: 7px;
+}
+#frame2::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10rem;
+	border: 1px solid #fff;
+}
+#frame2::-webkit-scrollbar-track-piece:start {
+	background: transparent;
+}
+#frame2::-webkit-scrollbar-track-piece:end {
+	background: transparent;
+}
+#list tr td input[type="text"]{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	outline-style: none;
+}
+
+.aqwe{
+	margin-top: 2px;
+	padding: 0px;
+	width:100%;
+	height:30px;
+	font-size: 18px;
+	text-align: center;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	outline-style: none;
+	cursor: pointer;
+}
+
+#act input[type="button"]:hover {
+	-webkit-animation: neon2 1.2s ease-in-out infinite alternate;
+	-moz-animation: neon2 1.2s ease-in-out infinite alternate;
+	animation: neon2 1.2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon2 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF;
+  }
+}
+@-moz-keyframes neon2 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF;
+  }
+}
+@keyframes neon2 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF;
+  }
+}

@@ -1,0 +1,64 @@
+* {
+	margin: 0px;
+}
+
+.logout {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	width: 270px;
+	height: 260px;
+	background: url("../img/asfalt_login.png"), rgba(221, 224, 238, 0.6);
+	border-radius: 40px;
+}
+
+#idtext {
+	position:relative;
+	text-align: center;
+	font-size: 18px;
+	top:30px;
+}
+b{
+	font-size: 22px;
+}
+#qwtext {
+	position: relative;
+	text-align: center;
+	font-size: 13px;
+	top:50px;
+}
+
+#mypage {
+	position: relative;
+	 width: 100px;
+    padding: 0;
+	height: 30px;
+	font-size: 12px;
+	border-radius: 5px;
+	text-align: center;
+	border: none;
+	color: white;
+	background: url("../img/asfalt_login.png"), rgba(38, 57, 77, 0.9);
+	cursor: pointer;
+	outline-style: none;
+	top: 120px;
+	left: 85px;
+}
+
+#logout {
+	position: relative;
+	width: 200px;
+    height: 35px;
+    left: 35px;
+    padding: 0px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-weight: bolder;
+	background: url("../img/asfalt_login.png"), rgba(38, 57, 77, 0.9);
+	cursor: pointer;
+	outline-style: none;
+	top:90px;
+}

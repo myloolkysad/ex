@@ -1,0 +1,284 @@
+* {
+	margin: 1px;
+}
+
+#manager {
+	position: absolute;
+	margin: 0px;
+	width: 1000px;
+	height: 800px;
+}
+
+#theme {
+	position: absolute;
+	width: 99.6%;
+	height: 80px;
+}
+
+#frameleft {
+	position: absolute;
+	border: 1px solid black;
+	width: 490px;
+	height: 710px;
+	top: 85px;
+	left: 2px;
+}
+.a{
+	font-size: 28px;
+    font-weight: bold;
+    left: 194px;
+    top: 5px;
+    position: absolute;
+    font-family: monospace;
+}
+
+#frameright {
+	position: absolute;
+	border: 1px solid black;
+	width: 490px;
+	height: 710px;
+	top: 85px;
+	right: 2px;
+}
+
+#title {
+	position: relative;
+	top: 12px;
+	left: 405px;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+#close {
+	position: absolute;
+	width: 150px;
+	height: 70px;
+	top: 2px;
+	right: 70px;
+}
+
+#closebt {
+	position: relative;
+	top: 2px;
+	left: 2px;
+	width: 130px;
+	height: 60px;
+}
+
+#left1 {
+	position: relative;
+	height: 700px;
+	margin: 0px;
+}
+
+#right1 {
+	position: relative;
+	height: 580px;
+	margin: 0px;
+}
+
+#right2 {
+	position: relative;
+	height: 120px;
+}
+
+#leftTitle {
+	position: relative;
+	height: 70px;
+	margin: 0px;
+}
+
+#leftFile {
+	position: relative;
+	border-bottom: 1px solid gray;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 637px;
+	top: 3px;
+	margin: 0px;
+}
+
+#rightTitle {
+	position: relative;
+	height: 70px;
+	margin: 0px;
+}
+
+#rightFile {
+	position: relative;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 500px;
+	top: 3px;
+	margin: 0px;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0px;
+}
+
+#member1 {
+	position: absolute;
+	bottom: 0px;
+	top: 50px;
+}
+
+#member2 {
+	position: absolute;
+	bottom: 0px;
+	top: 50px;
+}
+
+.member1 {
+	padding: 0px;
+	border: 1px solid gray;
+	width: 270px;
+}
+
+.member2 {
+	border: 1px solid gray;
+}
+
+.music1 {
+	border: 1px solid gray;
+	width: 220px;
+}
+
+.music2 {
+	border: 1px solid gray;
+}
+
+
+.che {
+	border: 1px solid gray;
+	width: 47px;
+	background: gray;
+	padding: 0px;
+}
+.ch {
+	border: 1px solid gray;
+	width: 45px;
+}
+
+.music1e {
+	border: 1px solid gray;
+	width: 220px;
+}
+
+.music2e {
+	border: 1px solid gray;
+}
+
+.che input[type=button]{
+	border: 0px;
+    cursor: pointer;
+    width: 43px;
+    height: 20px;
+    border-radius: 5px; 
+}
+.che input[type=button]:hover{
+	background:blue;
+	color: white;
+}
+th, td {
+	margin: 0px;
+}
+
+tbody th {
+	border: 2px solid black;
+}
+
+.filebox {
+	display: inline-block;
+}
+
+.filebox label {
+	display: inline-block;
+	width: 130px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	font-size: inherit;
+	line-height: normal;
+	vertical-align: middle;
+	background-color: black;
+	cursor: pointer;
+	border: 1px solid #ebebeb;
+	border-bottom-color: #e2e2e2;
+	border-radius: 10px;
+	font-size: 20px;
+	line-height:2.5;
+	font-weight:bold;
+}
+
+.filebox label:hover {
+	background: blue;
+}
+
+.filebox label:active {
+	border-top: 30px;
+}
+
+.filebox input[type="file"] { /* 파일 필드 숨기기 */
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+#left2text {
+	width: 200px;
+	height: 28px;
+	top: -3px;
+	position: relative;
+	border: 2px solid gray;
+	border-radius: 7px;
+}
+.filetext{
+	position:absolute;
+	width: 320px;
+	height: 120px;
+	top:0px;
+}
+.filebox{
+	position:absolute;
+	width: 140px;
+	height: 55px;
+	right: 25px;
+	top:0px;
+}
+.filebt{
+	position:absolute;
+	width: 145px;
+	height: 55px;
+	top: 60px;
+	right:20px;
+}
+.textlist{
+	font-size: 20px;
+	font-weight: bold;
+}
+.textli{
+	width: 200px;
+	height:20px;
+}
+#save2{
+	width: 130px;
+	height: 55px;
+	font-size: inherit;
+	line-height: normal;
+	border-radius: 10px;
+	font-size: 18px;
+	line-height:0.5;
+	font-weight:bold;
+	outline-style: none;
+}

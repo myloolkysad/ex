@@ -1,0 +1,127 @@
+* {
+	margin: 0px;
+}
+#searchWindow {
+	width: 700px;
+	height: 800px;
+	border: 1px solid black;
+}
+#searchWindow_top {
+	width: 696px;
+	height: 100px;
+}
+#searchWindow_bottom {
+	width: 696px;
+	height: 690px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#searchWord_label {
+	position: absolute;
+	top: 35px;
+	left: 45px;
+	height: 40px;
+	width: 300px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.searchWord_text {
+	position: absolute;
+	top: 33px;
+	left: 150px;
+	height: 40px;
+	width: 300px;
+}
+.searchWord_button {
+	position: absolute;
+	top: 30px;
+	left: 480px;
+	height: 50px;
+	width: 100px;
+	border-radius: 10px;
+	cursor: pointer;
+	outline-style: none;
+	background: url("../img/asfalt_login.png"),rgba(38,57,77,0.9);
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+tr{
+	width:700px;
+}
+th{
+	height: 20px;
+}
+.list1{
+	width: 300px;
+}
+.list2{
+	width: 300px;
+}
+.list3{
+	width: 50px;
+}
+.list4{
+	width: 50px;
+}
+td{
+	height: 50px;
+}
+#searchWindow_bottom::-webkit-scrollbar {
+	width: 7px;
+}
+
+#searchWindow_bottom::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10rem;
+	border: 1px solid #fff;
+}
+
+#searchWindow_bottom::-webkit-scrollbar-track-piece:start {
+	background: transparent;
+}
+
+#searchWindow_bottom::-webkit-scrollbar-track-piece:end {
+	background: transparent;
+}
+
+#searchWindow_top input[type="search"] {
+	color:black;
+	text-decoration: none;
+	font-family: Pacifico;
+}
+
+#searchWindow_top input[type="search"]:focus {
+	background: white;
+	border: 2px solid #273949;
+	-webkit-animation: neon2 2s ease-in-out infinite alternate;
+	-moz-animation: neon2 2s ease-in-out infinite alternate;
+	animation: neon2 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon2 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF;
+  }
+}
+@-moz-keyframes neon2 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF;
+  }
+}
+@keyframes neon2 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF;
+  }
+}
+
+

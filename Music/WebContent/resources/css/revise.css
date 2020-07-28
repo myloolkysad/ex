@@ -1,0 +1,59 @@
+* {
+	padding: 0px;
+	margin: 2px;
+}
+
+#revise {
+	position: absolute;
+	height: 500px;
+	width: 550px;
+}
+
+#title {
+	text-align: center;
+	font-size: 20px;
+	font-family: fantasy;
+	margin: 2px;
+}
+
+#left {
+	position: absolute;
+	width: 140px;
+	height: 415px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#right {
+	position: absolute;
+	width: 395px;
+	height: 460px;
+	left: 145px;
+}
+
+.text {
+	height: 24px;
+}
+
+.button {
+	width: 130px;
+	height: 27px;
+}
+
+p {
+	margin-bottom: 27px;
+	margin-top: 10px;
+}
+
+.ptext {
+	margin-bottom: 17px;
+	margin-top: 3px
+}
+
+.revise_button {
+	position: relative;
+	top: 14px;
+	left: 10px;
+	width: 200px;
+	height: 45px;
+}

@@ -1,0 +1,160 @@
+* {
+	margin: 0px;
+}
+
+#signUp {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 580px;
+}
+
+#signUp_left {
+	position: absolute;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	width: 118px;
+	height: 496px;
+}
+
+#signUp_right {
+	position: absolute;
+	margin: 0px;
+	top: 0px;
+	left: 120px;
+	width: 376px;
+	height: 496px;
+}
+
+p {
+	margin: 6px;
+	height: 36px;
+}
+
+p.p_text {
+	text-align: center;
+}
+
+.signUp_ID {
+	width: 180px;
+	height: 28px;
+}
+
+.signUp_IDCheckButton {
+	position: relative;
+	left: 10px;
+	top: 2px;
+	width: 80px;
+	height: 35px;
+}
+
+.signUp_PW {
+	width: 180px;
+	height: 28px;
+}
+
+.signUp_PWCK {
+	width: 180px;
+	height: 28px;
+}
+
+.signUp_Name {
+	width: 180px;
+	height: 28px;
+}
+
+.signUp_Year1 {
+	height: 35px;
+}
+
+.signUp_Year2 {
+	height: 35px;
+}
+
+.signUp_Year3 {
+	height: 35px;
+}
+
+.signUp_Phone {
+	height: 28px;
+}
+
+.signUp_Email {
+	width: 180px;
+	height: 28px;
+}
+
+.signUp_EmailCheckButton {
+	position: relative;
+	left: 10px;
+	top: 2px;
+	width: 100px;
+	height: 35px;
+}
+
+.signUp_Identify {
+	width: 180px;
+	height: 28px;
+}
+
+.signUp_IdentifyCheckButton {
+	position: relative;
+	left: 10px;
+	top: 2px;
+	width: 100px;
+	height: 35px;
+}
+
+.signUp_Addr {
+	width: 300px;
+	height: 28px;
+}
+
+.signUp_Button {
+	position: relative;
+	left: 20px;
+	top: 10px;
+	width: 200px;
+	height: 60px;
+}
+
+.Search_Post{
+	position: relative;
+	left: 10px;
+	top: 2px;
+	width: 100px;
+	height: 35px;
+}
+
+#sample6_postcode{
+	width: 170px;
+	height: 28px;
+}
+#sample6_address{
+	width: 170px;
+	height: 28px;
+}
+#sample6_detailAddress{
+	width: 170px;
+	height: 28px;
+}
+#sample6_extraAddress{
+	width: 170px;
+	height: 28px;
+}
+.mm{
+	width:185px;
+	height:35px;
+}
+#checkMail{
+	position:absolute;
+	left:190px;
+	top:2px;
+}
+#mm{
+	position:relative;
+	height:36px;
+	left:5px;
+}

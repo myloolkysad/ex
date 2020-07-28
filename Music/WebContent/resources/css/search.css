@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+}
+
+#searchWindow {
+	width: 700px;
+	height: 800px;
+}
+
+#searchWindow_top {
+	width: 696px;
+	height: 100px;
+	border: 1px solid green;
+}
+
+#searchWindow_bottom {
+	width: 696px;
+	height: 620px;
+	border: 1px solid green;
+}
+
+#searchWindow_footer {
+	width: 696px;
+	height: 65px;
+	border: 1px solid green;
+}
+
+#searchWord_label {
+	position: absolute;
+	top: 35px;
+	left: 50px;
+	height: 40px;
+	width: 300px;
+}
+
+.searchWord_text {
+	position: absolute;
+	top: 33px;
+	left: 150px;
+	height: 40px;
+	width: 300px;
+}
+
+.searchWord_button {
+	position: absolute;
+	top: 30px;
+	left: 480px;
+	height: 50px;
+	width: 60px;
+}
+#search {
+	width: 600px;
+	height: 90px;
+	outline-style: none;
+}
+.searchText {
+	font-size: 20px;
+	border-radius: 4px;
+	background: url("../img/asfalt_login.png"),rgba(221,224,238,0.6);
+}
+.search input[type="search"]{
+	border: none;
+	border-radius: 4px;
+	outline-style: none;
+	background: url("../img/asfalt_login.png"),rgba(221,224,238,0.4);
+}
+.searchBt {
+	border-radius: 10px;
+	cursor: pointer;
+	outline-style: none;
+	background: url("../img/asfalt_login.png"),rgba(38,57,77,0.9);
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
